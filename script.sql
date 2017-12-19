@@ -5,7 +5,7 @@ GO
 
 --  
 drop table if exists Service 
-create table Service (ServiceID smallint null, Service nvarchar(max) null)
+create table Service (ServiceID smallint null)
 
 --   
 drop table if exists Unit 
